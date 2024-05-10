@@ -1,9 +1,9 @@
+import React from 'react';
 import { render } from '@testing-library/react';
 
-import Storybook from './storybook';
-import React from 'react';
+import { Storybook } from '.';
 
-describe('Storybook', () => {
+describe('Page', () => {
   it('should render successfully', () => {
     const { baseElement } = render(<Storybook />);
     expect(baseElement).toBeTruthy();
