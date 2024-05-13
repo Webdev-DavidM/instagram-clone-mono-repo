@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@instagram-clonev1/storybook": ["apps/storybook/src/index.ts"]
+      "@libs/my-storybook": ["libs/storybook/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

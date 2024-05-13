@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-import { Storybook } from '@instagram-clonev1/storybook';
+// import { Storybook } from '@instagram-clonev1/storybook';
 
 export default function Index() {
   /*
@@ -11,7 +11,7 @@ export default function Index() {
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
-          <Storybook />
+          {/* <Storybook /> */}
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
